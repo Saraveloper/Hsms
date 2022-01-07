@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 05, 2022 at 02:09 PM
--- Server version: 10.4.19-MariaDB
--- PHP Version: 8.0.7
+-- Generation Time: Jan 07, 2022 at 01:02 PM
+-- Server version: 10.4.22-MariaDB
+-- PHP Version: 8.1.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `hsms`
+-- Database: `project`
 --
 
 -- --------------------------------------------------------
@@ -294,10 +294,15 @@ CREATE TABLE `user` (
   `college` varchar(100) NOT NULL,
   `email` varchar(50) NOT NULL,
   `mob` bigint(20) NOT NULL,
-  `password` varchar(50) NOT NULL,
-  `address` text DEFAULT NULL,
-  `image` text DEFAULT NULL
+  `password` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `user`
+--
+
+INSERT INTO `user` (`name`, `gender`, `college`, `email`, `mob`, `password`) VALUES
+('Dddd', 'F', 'ddddd', 'hasib20ee60@gmail.com', 44442322, '25f9e794323b453885f5181f1b624d0b');
 
 --
 -- Indexes for dumped tables
