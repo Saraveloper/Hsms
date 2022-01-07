@@ -10,6 +10,8 @@ background-attachment:fixed;
 .bg
 {
 min-height:540px;
+/* background-size: cover;
+background-repeat: no-repeat; */
 }
 .bg1
 {
