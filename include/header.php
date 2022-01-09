@@ -1,3 +1,20 @@
+<?php
+  require_once('admin/dbConnection.php');
+  $upload_dir = 'uploads/';
+
+  if (isset($_GET['id'])) {
+    $id = $_GET['id'];
+    $sql = "select * from contacts where id=".$id;
+    $result = mysqli_query($con, $sql);
+    if (mysqli_num_rows($result) > 0) {
+      $row = mysqli_fetch_assoc($result);
+    }else {
+      $errorMsg = 'Could not Find Any Record';
+    }
+  }
+?>
+
+
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -108,8 +125,7 @@
                     <div class="col-md-6">
                         <div class="rs-toolbar-left">
                             <div class="welcome-message">
-                                <i class="fa fa-bank"></i><span>Welcome to Higher Study Abroad
-</span>
+                                <i class="fa fa-bank"></i><span>Welcome to Higher Study Abroad</span>
                             </div>
                         </div>
                     </div>
@@ -154,195 +170,63 @@
                                         <!-- End Home -->
 
 
-
-
-                                            <!-- Rankings Menu Start -->
-											<li class="rs-mega-menu mega-rs"> <a href="#">Rankings</a>
-                                                <ul class="mega-menu"> 
-                                                    <li class="mega-menu-container">
-                                                        <div class="mega-menu-innner">
-                                                            <div class="single-magemenu">
-                                                                <ul class="sub-menu">
-                                                                    <li> <a href="about.html">Rankings Overview</a></li>
-                                                                    <li><a href="about2.html">QS World University Rankings</a></li>
-                                                                    <li><a href="blog.html">QS World University Rankings by Subject</a></li>
-													                <li><a href="blog-details.html">QS Business Masters Rankings</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="single-magemenu">
-                                                                <ul class="sub-menu">
-                                                                    <li> <a href="teachers.html">QS Global MBA Rankings</a> </li>
-                                                                    <li> <a href="teachers-without-filter.html">QS Graduate Employability Rankings</a> </li> 
-                                                                    <li> <a href="teachers-single.html">QS USA University Rankings</a> </li>
-                                                                    <li> <a href="contact.html">QS University Rankings by Region</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="single-magemenu">
-                                                                <ul class="sub-menu">
-                                                                    <li> <a href="gallery.html">QS University Rankings by Location</a> </li>
-                                                                    <li> <a href="gallery2.html">QS Best Student Cities</a> </li> 
-                                                                    <li> <a href="gallery3.html">QS Top 50 Under 50</a> </li>
-                                                                    <li><a href="error-404.html">QS Stars Rating System</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="single-magemenu">
-                                                                <ul class="sub-menu">
-                                                                    <li> <a href="shop.html">QS IGAUGE Rating System</a> </li> 
-                                                                    <li> <a href="shop-details.html">Related Articles</a> </li>                                                   
-                                                                 
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </li>
+                                              <!--Rankings Menu Start-->
+                                              <li class="menu-item-has-children"> <a href="#">Rankings</a>
+                                                <ul class="sub-menu">
+                                                <li><a href="about2.html">QS World University Rankings</a></li>
+                                                <li><a href="blog.html">QS World University Rankings by Subject</a></li>
                                                 </ul>
-											</li>
-											<!--Rankings Menu End -->
+                                            </li>
+                                            <!--Rankings Menu End--> 
 
 
-                                            <!-- Discover Menu Start -->
-                                            <li class="rs-mega-menu mega-rs"> <a href="#">Discover</a>
-                                                <ul class="mega-menu"> 
-                                                    <li class="mega-menu-container">
-                                                        <div class="mega-menu-innner">
-                                                            <div class="single-magemenu">
-                                                                <ul class="sub-menu">
-                                                                    <li> <a href="about.html">COVID-19 Information</a></li>
-                                                                    <li><a href="about2.html">Course Matching Tool</a></li>
-                                                                    <li><a href="blog.html">University Search</a></li>
-													                <li><a href="blog-details.html">Program Search</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="single-magemenu">
-                                                                <ul class="sub-menu">
-                                                                    <li> <a href="teachers.html">Subject Guides</a> </li>
-                                                                    <li> <a href="teachers-without-filter.html">Study Destination Guides</a> </li> 
-                                                                    <li> <a href="teachers-single.html">Scholarship Advice</a> </li>
-                                                                    <li> <a href="contact.html">Webinars</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="single-magemenu">
-                                                                <ul class="sub-menu">
-                                                                    <li> <a href="gallery.html">Business Schools</a> </li>
-                                                                </ul>
-                                                            </div>
-                                                          
-                                                        </div>
-                                                    </li>
-                                                </ul>
-											</li>
-											<!--Discover Menu End -->
+                                                <!--Discover Menu Start-->
+                                                <li class="menu-item-has-children"> <a href="#">Discover</a>
+                                                <ul class="sub-menu">                                          
+                                                <li><a href="about2.html">Destination Guide</a></li>
+                                                <li><a href="blog.html">Subject Guide</a></li>
+                                                <li><a href="blog-details.html">Scholarship Advice</a></li>
+                                                                                       
+                                            </ul>
+                                            </li>
+                                            <!--Discover Menu End--> 
+
+                                           
 
 
                                 
 
 
 
-
-
-
-                                                 <!-- Discover Menu Start -->
-                                        <li class="rs-mega-menu mega-rs"> <a href="#">Events</a>
-                                                <ul class="mega-menu"> 
-                                                    <li class="mega-menu-container">
-                                                        <div class="mega-menu-innner">
-                                                            <div class="single-magemenu">
-                                                                <ul class="sub-menu">
-                                                                    <li> <a href="about.html">QS Master's and MBA Events</a></li>
-                                                                    <li><a href="about2.html">Events in Africa and Middle East</a></li>
-                                                                    <li><a href="blog.html">Events in Asia</a></li>
-													                <li><a href="blog-details.html">Events in Europe</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="single-magemenu">
-                                                                <ul class="sub-menu">
-                                                                    <li> <a href="teachers.html">Events in North America</a> </li>
-                                                                    <li> <a href="teachers-without-filter.html">Events in South America</a> </li> 
-                                                          
-                                                                </ul>
-                                                            </div>                                                     
-                                                          
-                                                        </div>
-                                                    </li>
-                                                </ul>
-											</li>
-											<!--Discover Menu End -->
-
-
-
-                                                    <!-- PREPARE Menu Start -->
-                                        <li class="rs-mega-menu mega-rs"> <a href="#">Prepare</a>
-                                                <ul class="mega-menu"> 
-                                                    <li class="mega-menu-container">
-                                                        <div class="mega-menu-innner">
-                                                            <div class="single-magemenu">
-                                                                <ul class="sub-menu">
-                                                                    <li> <a href="about.html">COVID-19 Information</a></li>
-                                                                    <li><a href="about2.html">Free Test Preparation (QS-LEAP)</a></li>
-                                                                    <li><a href="blog.html">Student Finance</a></li>
-													                <li><a href="blog-details.html">QS Student Guides</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="single-magemenu">
-                                                                <ul class="sub-menu">
-                                                                    <li> <a href="teachers.html">Business Schools</a> </li>
-                                                                   
-                                                                </ul>
-                                                            </div>                                                     
-                                                          
-                                                        </div>
-                                                    </li>
-                                                </ul>
-											</li>
-											<!--PREPARE Menu End -->
-
-                                               <!--Courses Menu Start-->
-                                        <li class="menu-item-has-children"> <a href="#">Apply</a>
-                                            <ul class="sub-menu">
-                                            <li> <a href="admin/index.php">Register Now</a></li>
-                                                <li><a href="courses.php">Admission Support </a></li>
-
-                                                <li><a href="courses.php">All Courses </a></li>
-                                                <li><a href="courses-details2.php">Courses Details</a></li>
-                                               
+                                            <!--Discover Menu Start-->
+                                            <li class="menu-item-has-children"> <a href="#">PREPARE</a>
+                                                <ul class="sub-menu">
+                                                <li> <a href="about.html">Free Test</a></li>
+                                                <li><a href="about2.html">Student Guide</a></li>
+                                                                        
                                             </ul>
-                                        </li>
-                                        <!--Courses Menu End-->
+                                            </li>
+                                            <!--Discover Menu End--> 
 
-
-                                                <!--Courses Menu Start-->
-                                                <li class="menu-item-has-children"> <a href="#">Careers</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="courses.php">Careers Advice </a></li>   
-
-                                               
+                                                 <!--Discover Menu Start-->
+                                                 <li class="menu-item-has-children"> <a href="#">ADMISSION</a>
+                                                <ul class="sub-menu">
+                                                <li> <a href="about.html">SOP</a></li>
+                                                <li><a href="about2.html">LOR</a></li>
+                                                <li><a href="blog-details.html">Sending Application</a></li>
+                                                <li><a href="blog-details.html">Acceptance Letter</a></li>
+                                        
+                                                                        
                                             </ul>
-                                        </li>
-                                        <!--Courses Menu End-->
+                                            </li>
+                                            <!--Discover Menu End-->
 
 
-                                        <!--Courses Menu Start-->
-                                        <li class="menu-item-has-children"> <a href="#">Community</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="courses.php">Blog</a></li>                                               
-                                                <li><a href="courses.php">University News</a></li> 
-                                                <li><a href="blog.php">Blog</a></li>
-                                                <li><a href="blog-details.php">Blog Details</a></li>  
-                                                <li class="menu-item-has-children"> <a href="gallery2.php">Gallery</a>                                            
-                                               
-                                            </ul>
-                                        </li>
-                                        <!--Courses Menu End-->
 
-                                    
 
+                                      
                                          <!--Courses Menu Start-->
-                                         <li class="menu-item-has-children"> <a href="#">Pages</a>
-                                            <ul class="sub-menu">
-                                            <li> <a href="admin_login.php">Admin Login</a></li>      
-                                            <li class="menu-item-has-children"> <a href="about.php">About Us</a>
-                                            <li> <a href="contact.php">Contact</a></li> 
-                                         
-                                        </li>                                                                                                                        
+                                         <li class="menu-item-has-children"> <a href="about.php">About</a> </li>                                                                                                                        
                                                
                                             </ul>
                                         </li>

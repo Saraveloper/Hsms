@@ -70,7 +70,7 @@
                             <i class="fa fa-book rs-animation-scale-up"></i>
                         </div>
                         <div class="services-desc">
-                            <h4 class="services-title">Books & Liberary</h4>
+                            <h4 class="services-title">Subject </h4>
                             <p>Lorem ipsum dolor sit amet Sed nec molestie justo</p>
                         </div>
                     </div>
@@ -81,7 +81,7 @@
                             <i class="fa fa-user rs-animation-scale-up"></i>
                         </div>
                         <div class="services-desc">
-                            <h4 class="services-title">Certified Teachers</h4>
+                            <h4 class="services-title">University</h4>
                             <p>Lorem ipsum dolor sit amet Sed nec molestie justo</p>
                         </div>
                     </div>
@@ -330,28 +330,28 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="rs-counter-list">
-                                <h2 class="counter-number plus">60</h2>
-                                <h4 class="counter-desc">TEACHERS</h4>
+                                <h2 class="counter-number plus">50</h2>
+                                <h4 class="counter-desc">Top University</h4>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="rs-counter-list">
-                                <h2 class="counter-number plus">40</h2>
-                                <h4 class="counter-desc">COURSES</h4>
+                                <h2 class="counter-number plus">15</h2>
+                                <h4 class="counter-desc">Top Subject</h4>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="rs-counter-list">
-                                <h2 class="counter-number plus">900</h2>
-                                <h4 class="counter-desc">STUDENTS</h4>
+                                <h2 class="counter-number plus">12</h2>
+                                <h4 class="counter-desc">Top Country</h4>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="rs-counter-list">
-                                <h2 class="counter-number plus">3675</h2>
-                                <h4 class="counter-desc">Satisfied Client</h4>
+                                <h2 class="counter-number plus">20</h2>
+                                <h4 class="counter-desc">Top City</h4>
                             </div>
                         </div>
                     </div>
@@ -361,210 +361,26 @@
     </div>
     <!-- Counter Down Section End -->
 
-    <!-- Events Start -->
-    <div id="rs-events" class="rs-events sec-spacer">
-        <div class="container">
-            <div class="sec-title mb-50 text-center">
-                <h2>OUR UPCOMING EVENTS</h2>
-                <p>I feel the presence of the Almighty, who formed us in his own image, and the breath.</p>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="false" data-autoplay-timeout="5000" data-smart-speed="1200" data-dots="true" data-nav="true" data-nav-speed="false" data-mobile-device="1" data-mobile-device-nav="true"
-                        data-mobile-device-dots="true" data-ipad-device="2" data-ipad-device-nav="true" data-ipad-device-dots="true" data-md-device="3" data-md-device-nav="true" data-md-device-dots="true">
-                        <div class="event-item">
-                            <div class="event-img">
-                                <img src="images/events/1.jpg" alt="" />
-                                <a class="image-link" href="events-details.html" title="University Tour 2018">
-                                    <i class="fa fa-link"></i>
-                                </a>
-                            </div>
-                            <div class="events-details sec-color">
-                                <div class="event-date">
-                                    <i class="fa fa-calendar"></i>
-                                    <span>28 June 2017</span>
-                                </div>
-                                <h4 class="event-title"><a href="events-details.html">PRACTICE WORKSHOP 2018</a></h4>
-                                <div class="event-meta">
-                                    <div class="event-time">
-                                        <i class="fa fa-clock-o"></i>
-                                        <span>12.30AM-05.30PM</span>
-                                    </div>
-                                    <div class="event-location">
-                                        <i class="fa fa-map-marker"></i>
-                                        <span>Venue A, Main Campus</span>
-                                    </div>
-                                </div>
-                                <div class="event-btn">
-                                    <a href="#">Join Event <i class="fa fa-angle-double-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="event-item">
-                            <div class="event-img">
-                                <img src="images/events/2.jpg" alt="" />
-                                <a class="image-link" href="events-details.html" title="University Tour 2018">
-                                    <i class="fa fa-link"></i>
-                                </a>
-                            </div>
-                            <div class="events-details sec-color">
-                                <div class="event-date">
-                                    <i class="fa fa-calendar"></i>
-                                    <span>28 April 2017</span>
-                                </div>
-                                <h4 class="event-title"><a href="events-details.html">CAMPUS EXAMINATION ROOM</a></h4>
-                                <div class="event-meta">
-                                    <div class="event-time">
-                                        <i class="fa fa-clock-o"></i>
-                                        <span>10.30AM-03.30PM</span>
-                                    </div>
-                                    <div class="event-location">
-                                        <i class="fa fa-map-marker"></i>
-                                        <span>Venue A, Main Campus</span>
-                                    </div>
-                                </div>
-                                <div class="event-btn">
-                                    <a href="#">Join Event <i class="fa fa-angle-double-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="event-item">
-                            <div class="event-img">
-                                <img src="images/events/3.jpg" alt="" />
-                                <a class="image-link" href="events-details.html" title="University Tour 2018">
-                                    <i class="fa fa-link"></i>
-                                </a>
-                            </div>
-                            <div class="events-details sec-color">
-                                <div class="event-date">
-                                    <i class="fa fa-calendar"></i>
-                                    <span>28 June 2017</span>
-                                </div>
-                                <h4 class="event-title"><a href="events-details.html">BEST GRADUATION CEREMONY</a></h4>
-                                <div class="event-meta">
-                                    <div class="event-time">
-                                        <i class="fa fa-clock-o"></i>
-                                        <span>10.30AM-03.30PM</span>
-                                    </div>
-                                    <div class="event-location">
-                                        <i class="fa fa-map-marker"></i>
-                                        <span>Venue A, Main Campus</span>
-                                    </div>
-                                </div>
-                                <div class="event-btn">
-                                    <a href="#">Join Event <i class="fa fa-angle-double-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Events End -->
 
-    <!-- Team Start -->
-    <div id="rs-team" class="rs-team sec-color sec-spacer">
-        <div class="container">
-            <div class="sec-title mb-50 text-center">
-                <h2>OUR EXPERIENCED STAFFS</h2>
-                <p>Considering desire as primary motivation for the generation of narratives is a useful concept.</p>
-            </div>
-            <div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="false" data-autoplay-timeout="5000" data-smart-speed="1200" data-dots="true" data-nav="true" data-nav-speed="false" data-mobile-device="1" data-mobile-device-nav="true"
-                data-mobile-device-dots="true" data-ipad-device="2" data-ipad-device-nav="true" data-ipad-device-dots="true" data-md-device="3" data-md-device-nav="true" data-md-device-dots="true">
-                <div class="team-item">
-                    <div class="team-img">
-                        <img src="images/team/1.jpg" alt="team Image" />
-                        <div class="normal-text">
-                            <h3 class="team-name">ABD Rashid Khan</h3>
-                            <span class="subtitle">Vice Chancellor</span>
-                        </div>
-                    </div>
-                    <div class="team-content">
-                        <div class="overly-border"></div>
-                        <div class="display-table">
-                            <div class="display-table-cell">
-                                <h3 class="team-name"><a href="teachers-single.html">ABD Rashid Khan</a></h3>
-                                <span class="team-title">Vice Chancellor</span>
-                                <p class="team-desc">Entrusted with planning, implementation and evaluation.</p>
-                                <div class="team-social">
-                                    <a href="#" class="social-icon"><i class="fa fa-facebook"></i></a>
-                                    <a href="#" class="social-icon"><i class="fa fa-google-plus"></i></a>
-                                    <a href="#" class="social-icon"><i class="fa fa-twitter"></i></a>
-                                    <a href="#" class="social-icon"><i class="fa fa-pinterest-p"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-item">
-                    <div class="team-img">
-                        <img src="images/team/2.jpg" alt="team Image" />
-                        <div class="normal-text">
-                            <h3 class="team-name">Luyes Figery</h3>
-                            <span class="subtitle">A. Professor</span>
-                        </div>
-                    </div>
-                    <div class="team-content">
-                        <div class="overly-border"></div>
-                        <div class="display-table">
-                            <div class="display-table-cell">
-                                <h3 class="team-name"><a href="teachers-single.html">Luyes Figery</a></h3>
-                                <span class="team-title">A. Professor</span>
-                                <p class="team-desc">Entrusted with planning, implementation and evaluation.</p>
-                                <div class="team-social">
-                                    <a href="#" class="social-icon"><i class="fa fa-facebook"></i></a>
-                                    <a href="#" class="social-icon"><i class="fa fa-google-plus"></i></a>
-                                    <a href="#" class="social-icon"><i class="fa fa-twitter"></i></a>
-                                    <a href="#" class="social-icon"><i class="fa fa-pinterest-p"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-item">
-                    <div class="team-img">
-                        <img src="images/team/3.jpg" alt="team Image" />
-                        <div class="normal-text">
-                            <h3 class="team-name">Mr. Mahabub Alam</h3>
-                            <span class="subtitle">Assistant Professor</span>
-                        </div>
-                    </div>
-                    <div class="team-content">
-                        <div class="overly-border"></div>
-                        <div class="display-table">
-                            <div class="display-table-cell">
-                                <h3 class="team-name"><a href="teachers-single.html">Mr. Mahabub Alam</a></h3>
-                                <span class="team-title">Assistant Professor</span>
-                                <p class="team-desc">Entrusted with planning, implementation and evaluation.</p>
-                                <div class="team-social">
-                                    <a href="#" class="social-icon"><i class="fa fa-facebook"></i></a>
-                                    <a href="#" class="social-icon"><i class="fa fa-google-plus"></i></a>
-                                    <a href="#" class="social-icon"><i class="fa fa-twitter"></i></a>
-                                    <a href="#" class="social-icon"><i class="fa fa-pinterest-p"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Team End -->
+
+
 
     <!-- Calltoaction Start -->
     <div id="rs-calltoaction" class="rs-calltoaction sec-spacer bg4">
         <div class="container">
             <div class="rs-cta-inner text-center">
                 <div class="sec-title mb-50 text-center">
-                    <h2 class="white-color">WEB DESIGN &amp; DEVLOPMENT COURSE</h2>
-                    <p class="white-color">Fusce sem dolor, interdum in efficitur at, faucibus nec lorem.</p>
+                    <h2 class="white-color">Test &amp; Your Skill</h2>
+                    <p class="white-color"> Free Test Skill</p>
                 </div>
-                <a class="cta-button" href="#">Join Now</a>
+                <a class="cta-button" href="#"> Register Now </a>
             </div>
         </div>
     </div>
     <!-- Calltoaction End -->
+
+
+
 
     <!-- Latest News Start -->
     <div id="rs-latest-news" class="rs-latest-news sec-spacer">
@@ -574,28 +390,44 @@
                 <p>Fusce sem dolor, interdum in efficitur at, faucibus nec lorem. Sed nec molestie justo.</p>
             </div>
             <div class="row">
-                <div class="col-md-6">
-                    <div class="news-normal-block">
+
+                <div class="col-md-6">            
+
+  
+                    <div class="news-normal-block">                    
                         <div class="news-img">
                             <a href="#">
-                                <img src="images/blog/1.jpg" alt="" />
+                                <img src="images/blog/1.jpg" alt="" />                             
                             </a>
                         </div>
+
                         <div class="news-date">
                             <i class="fa fa-calendar-check-o"></i>
                             <span>June  28,  2017</span>
                         </div>
-                        <h4 class="news-title"><a href="blog-details.html">Those Other College Expenses You Aren't Thinking About</a></h4>
+
+                        <h4 class="news-title"><a href="blog-details.html"> 
+                        <span>gfdgd</span></a></h4>
+                        
+                      
                         <div class="news-desc">
                             <p>
-                                Blandit rutrum, erat et egestas ultricies, dolor tortor egestas enim, quiste rhoncus sem the purus eu sapien curabitur.Lorem Ipsum is therefore always free from repetitionetc.
+                       
+                            <span>gfg</span>
                             </p>
                         </div>
+
+
                         <div class="news-btn">
                             <a href="#">Read More</a>
                         </div>
+
                     </div>
                 </div>
+
+
+
+
                 <div class="col-md-6">
                     <div class="news-list-block">
                         <div class="news-list-item">
@@ -665,79 +497,6 @@
   
 
 
-
-    <!-- Testimonial Start -->
-    <div id="rs-testimonial" class="rs-testimonial bg5 sec-spacer">
-        <div class="container">
-            <div class="sec-title mb-50 text-center">
-                <h2 class="white-color">WHAT PEOPLE SAYS</h2>
-                <p class="white-color">Fusce sem dolor, interdum in efficitur at, faucibus nec lorem. Sed nec molestie justo.</p>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="rs-carousel owl-carousel" data-loop="true" data-items="2" data-margin="30" data-autoplay="true" data-autoplay-timeout="5000" data-smart-speed="1200" data-dots="true" data-nav="true" data-nav-speed="false" data-mobile-device="1" data-mobile-device-nav="true"
-                        data-mobile-device-dots="true" data-ipad-device="2" data-ipad-device-nav="true" data-ipad-device-dots="true" data-md-device="2" data-md-device-nav="true" data-md-device-dots="true">
-                        <div class="testimonial-item">
-                            <div class="testi-img">
-                                <img src="images/testimonial/1.jpg" alt="Jhon Smith">
-                            </div>
-                            <div class="testi-desc">
-                                <h4 class="testi-name">Luise Henrikes</h4>
-                                <p>
-                                    Etiam non elit nec augue tempor gravida et sed velit. Aliquam tempus eget lorem ut malesuada. Phasellus dictum est sed libero posuere dignissim.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="testimonial-item">
-                            <div class="testi-img">
-                                <img src="images/testimonial/2.jpg" alt="Jhon Smith">
-                            </div>
-                            <div class="testi-desc">
-                                <h4 class="testi-name">Aliana D’suza</h4>
-                                <p>
-                                    Tempor non elit nec augue nec gravida et sed velit. Aliquam tempus eget lorem ut malesuada. Phasellus dictum est sed libero posuere dignissim.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="testimonial-item">
-                            <div class="testi-img">
-                                <img src="images/testimonial/3.jpg" alt="Jhon Smith">
-                            </div>
-                            <div class="testi-desc">
-                                <h4 class="testi-name">Aliana D’suza</h4>
-                                <p>
-                                    Tempor non elit nec augue nec gravida et sed velit. Aliquam tempus eget lorem ut malesuada. Phasellus dictum est sed libero posuere dignissim.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="testimonial-item">
-                            <div class="testi-img">
-                                <img src="images/testimonial/4.jpg" alt="Jhon Smith">
-                            </div>
-                            <div class="testi-desc">
-                                <h4 class="testi-name">Aliana D’suza</h4>
-                                <p>
-                                    Tempor non elit nec augue nec gravida et sed velit. Aliquam tempus eget lorem ut malesuada. Phasellus dictum est sed libero posuere dignissim.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="testimonial-item">
-                            <div class="testi-img">
-                                <img src="images/testimonial/5.jpg" alt="Jhon Smith">
-                            </div>
-                            <div class="testi-desc">
-                                <h4 class="testi-name">Aliana D’suza</h4>
-                                <p>
-                                    Tempor non elit nec augue nec gravida et sed velit. Aliquam tempus eget lorem ut malesuada. Phasellus dictum est sed libero posuere dignissim.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial End -->
 
 
    
