@@ -90,6 +90,25 @@ echo '<span class="pull-right top title1" ><span class="log1">
             <li><a href="dash.php?q=5">Remove Quiz</a></li>
 			
           </ul>
+
+
+
+
+          <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+           role="button" aria-haspopup="true" aria-expanded="false">Blog<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="blog.php">Add Blog</a></li>
+            <li><a href="">View </a></li>
+			
+          </ul>
+
+
+
+
+
+
+
         <!-- </li><li class="pull-right"> <a href="logout.php?q=account.php"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>&nbsp;&nbsp;&nbsp;&nbsp;Signout</a></li> -->
 		
       </ul>

@@ -57,9 +57,9 @@
 		                    <h2>OUR MISSION</h2>
 		                </div>
                     	<div class="about-desc">
-                			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehe derit in voluptate velit esse cillum.</p>
+                			<p>Its our mission to counsel and help students enrol to the best possible institutions and contribute in building their future and realising their dreams.
 
-                			<p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, that they cannot fore see the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty.</p>
+Higher Study is one of the trusted and transparent agencies for overseas education with several offices around the Globe. With several offices and our well trained experienced counsellors our students experience firsthand assistance on their educational needs and quality customer service</p>
                     	</div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -98,9 +98,9 @@
 		                    <h2>OUR VISION</h2>
 		                </div>
                     	<div class="vision-desc">
-                			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehe derit in voluptate velit esse cillum.</p>
+                			<p>To provide attainable education to the doorstep of every aspiring student and meticulously promote foreign education.
 
-                			<p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot fore see the pain and trouble that are bound to ensue; and equal who fail in their duty.</p>
+Empowering student’s potentials through counselling for better career choice and promoting all round and distinctive educational growth of our students. Our educational counsellors help students through provision of free counselling sessions to choose the best career based on their profile.</p>
                     	</div>
                     </div>
                 </div>

@@ -113,6 +113,35 @@
                 <span class="primary-color">Latest Blog</span>      
                 <h2>Top Searched</h2> 
             </div>
+
+
+  <?php 
+  
+    $query = "SELECT * FROM blog";  
+  
+  ?>
+
+
+
+<?php 
+  
+ 
+
+  if (isset($_GET['id'])) {
+    $id = $_GET['id'];
+    $sql = "select * from blog where id=".$id;
+    $result = mysqli_query($con, $sql);
+    if (mysqli_num_rows($result) > 0) {
+      $row = mysqli_fetch_assoc($result);
+    }else {
+      $errorMsg = 'Could not Find Any Record';
+    }
+  }
+?>
+
+
+
+
 				<div class="row">
                     <div class="col-lg-4 col-md-6">
 

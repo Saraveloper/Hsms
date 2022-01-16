@@ -15,7 +15,7 @@
 
     <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
       <div class="container">
-        <a class="navbar-brand" href="index.php">Post</a>
+        <a class="navbar-brand" href="index.php">Blog Post</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -28,24 +28,24 @@
       </div>
     </nav>
 
-      <div class="container">
+      <div class="container" style="">
         <div class="row justify-content-center">
           <div class="col-md-6">
             <div class="card">
-              <div class="card-header">Create</div>
+              <div class="card-header">Create Blog</div>
               <div class="card-body">
                 <form class="" action="add_blog.php" method="post" enctype="multipart/form-data">
                     <div class="form-group">
-                      <label for="name">Name</label>
-                      <input type="text" class="form-control" name="blog_title"  placeholder="Enter Name" value="">
+                      <label for="name">Blog Title</label>
+                      <input type="text" class="form-control" name="blog_title"  placeholder="Enter Blog Title" value="">
                     </div>
                     <div class="form-group">
-                      <label for="contact">Contact No:</label>
-                      <input type="text" class="form-control" name="blog_content" placeholder="Enter Mobile Number" value="">
+                      <label for="contact">Blog Info</label>
+                      <input type="text" class="form-control" name="blog_content" placeholder="Enter Blog Info" value="">
                     </div>
                
                     <div class="form-group">
-                      <label for="image">Choose Image</label>
+                      <label for="image"> Image</label>
                       <input type="file" class="form-control" name="image" value="">
                     </div>
                     <div class="form-group">
