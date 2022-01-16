@@ -4,7 +4,7 @@
 
 //   if (isset($_GET['id'])) {
 //     $id = $_GET['id'];
-//     $sql = "select * from contacts where id=".$id;
+//     $sql = "select * from blog where id=".$id;
 //     $result = mysqli_query($con, $sql);
 //     if (mysqli_num_rows($result) > 0) {
 //       $row = mysqli_fetch_assoc($result);
@@ -173,7 +173,7 @@
                         <!--Rankings Menu Start-->
                         <li class="menu-item-has-children"> <a href="#">Rankings</a>
                         <ul class="sub-menu">
-                        <li><a href="about2.html">QS World University Rankings</a></li>
+                        <li><a href="university_list.php">QS World University Rankings</a></li>
                         <li><a href="blog.php">QS World University Rankings by Subject</a></li>
                         </ul>
                     </li>

@@ -49,58 +49,7 @@
     </div>
     <!-- Slider Area End -->
 
-    <!-- Services Start -->
-    <div class="rs-services rs-services-style1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="services-item rs-animation-hover">
-                        <div class="services-icon">
-                            <i class="fa fa-american-sign-language-interpreting rs-animation-scale-up"></i>
-                        </div>
-                        <div class="services-desc">
-                            <h4 class="services-title">Trending Courses</h4>
-                            <p>Lorem ipsum dolor sit amet Sed nec molestie justo</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="services-item rs-animation-hover">
-                        <div class="services-icon">
-                            <i class="fa fa-book rs-animation-scale-up"></i>
-                        </div>
-                        <div class="services-desc">
-                            <h4 class="services-title">Subject </h4>
-                            <p>Lorem ipsum dolor sit amet Sed nec molestie justo</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="services-item rs-animation-hover">
-                        <div class="services-icon">
-                            <i class="fa fa-user rs-animation-scale-up"></i>
-                        </div>
-                        <div class="services-desc">
-                            <h4 class="services-title">University</h4>
-                            <p>Lorem ipsum dolor sit amet Sed nec molestie justo</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="services-item rs-animation-hover">
-                        <div class="services-icon">
-                            <i class="fa fa-graduation-cap rs-animation-scale-up"></i>
-                        </div>
-                        <div class="services-desc">
-                            <h4 class="services-title">Certification</h4>
-                            <p>Lorem ipsum dolor sit amet Sed nec molestie justo</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Services End -->
+
 
 
 
@@ -374,7 +323,7 @@
                     <h2 class="white-color">Test &amp; Your Skill</h2>
                     <p class="white-color"> Free Test Skill</p>
                 </div>
-                <a class="cta-button" href="#"> Register Now </a>
+                <a class="cta-button" href="admin/index.php"> Register Now </a>
             </div>
         </div>
     </div>
