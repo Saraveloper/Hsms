@@ -174,7 +174,7 @@
                         <li class="menu-item-has-children"> <a href="#">Rankings</a>
                         <ul class="sub-menu">
                         <li><a href="university_list.php">QS World University Rankings</a></li>
-                        <li><a href="blog.php">QS World University Rankings by Subject</a></li>
+                        <li><a href="subject_list.php">QS World University Rankings by Subject</a></li>
                         </ul>
                     </li>
                     <!--Rankings Menu End--> 
