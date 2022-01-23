@@ -22,10 +22,12 @@
 
 			$userPic = time().'_'.rand(1000,9999).'.'.$imgExt;
 
+			// "/Store_Brand/store_admin/images/"
+
 			if(in_array($imgExt, $allowExt)){
 
 				if($imgSize < 5000000){
-					move_uploaded_file($imgTmp ,$upload_dir.$userPic);
+					move_uploaded_file($imgTmp,$upload_dir.$userPic);
 				}else{
 					$errorMsg = 'Image too large';
 				}
@@ -41,7 +43,7 @@
 			$result = mysqli_query($con, $sql);
 			if($result){
 				$successMsg = 'Blog added successfully';
-				header('Location: index.php');
+				header('Location: add_blog.php');
 			}else{
 				$errorMsg = 'Error '.mysqli_error($con);
 			}

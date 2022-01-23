@@ -1,7 +1,7 @@
 
-<!-- Footer Start -->
+<!-- header Start -->
 <?php include("./include/header.php"); ?>
-<!-- Footer End -->
+<!-- header End -->
 
 
         <div class="container">

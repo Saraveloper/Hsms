@@ -48,65 +48,6 @@
         </div>
         <!-- History End -->
 
-        <!-- Mission Start -->
-        <div class="rs-mission sec-color sec-spacer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12 mobile-mb-50">
-		                <div class="abt-title">
-		                    <h2>OUR MISSION</h2>
-		                </div>
-                    	<div class="about-desc">
-                			<p>Its our mission to counsel and help students enrol to the best possible institutions and contribute in building their future and realising their dreams.
-
-Higher Study is one of the trusted and transparent agencies for overseas education with several offices around the Globe. With several offices and our well trained experienced counsellors our students experience firsthand assistance on their educational needs and quality customer service</p>
-                    	</div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                    	<div class="row">
-                    		<div class="col-md-6 mobile-mb-30">
-                    			<a href="#">
-									<img src="images/about/mission1.jpg" alt="Mission Image"/>
-		                    	</a> 
-                    		</div>
-                    		<div class="col-md-6">
-		                    	<a href="#">
-									<img src="images/about/mission2.jpg" alt="Mission Image"/>
-		                    	</a>                 			
-                    		</div>
-                    	</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Mission End -->
-
-        <!-- Vision Start -->
-        <div class="rs-vision sec-spacer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12 mobile-mb-50">
-                        <div class="vision-img rs-animation-hover">
-							<img src="images/about/vision.jpg" alt="img02"/>
-							<a class="popup-youtube rs-animation-fade" href="https://www.youtube.com/watch?v=3f9CAMoj3Ec" title="Video Icon">
-							</a>
-							<div class="overly-border"></div>
-						</div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-		                <div class="abt-title">
-		                    <h2>OUR VISION</h2>
-		                </div>
-                    	<div class="vision-desc">
-                			<p>To provide attainable education to the doorstep of every aspiring student and meticulously promote foreign education.
-
-Empowering student’s potentials through counselling for better career choice and promoting all round and distinctive educational growth of our students. Our educational counsellors help students through provision of free counselling sessions to choose the best career based on their profile.</p>
-                    	</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Vision End -->
 
 
 

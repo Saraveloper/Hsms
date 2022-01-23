@@ -1,5 +1,5 @@
 <?php include("./include/header.php"); ?>
-
+<?php require_once('admin/dbConnection.php'); ?>
 
     <!-- Slider Area Start -->
     <div id="rs-slider" class="slider-overlay-2">
@@ -59,178 +59,62 @@
     <div id="rs-courses" class="rs-courses rs-courses-style6 sec-color sec-spacer">
 			<div class="container">
 			<div class="sec-title2 mb-50 text-center">
-                <span class="primary-color">Latest Blog</span>      
+                <span class="primary-color">Latest Blog</span>       
                 <h2>Top Searched</h2> 
             </div>
 
 
-  <?php 
-  
-    $query = "SELECT * FROM blog";  
-  
-  ?>
-
-
-
-<?php 
-  
- 
-
-  if (isset($_GET['id'])) {
-    $id = $_GET['id'];
-    $sql = "select * from blog where id=".$id;
-    $result = mysqli_query($con, $sql);
-    if (mysqli_num_rows($result) > 0) {
-      $row = mysqli_fetch_assoc($result);
-    }else {
-      $errorMsg = 'Could not Find Any Record';
-    }
-  }
-?>
-
+         
 
 
 
 				<div class="row">
-                    <div class="col-lg-4 col-md-6">
 
-                        <div class="cource-item">
-                            <div class="cource-img">
-                                   <img src="images/courses/1.jpg" alt="">
-                                   <a class="image-link" href="courses-details.html" title="University Tour 2018">
-                                       <i class="fa fa-link"></i>
-                                   </a>                        
-                            
-                            </div>
-                            <div class="course-body">
-                            <h4 class="title"><a href="courses-details.html">Music Course</a></h4>
-                            <p>Last Blog and new site Last Blog and new site
-                            Last Blog and new site Last Blog and new....
-                            </p>
 
-      <a href="#" class="news-btn"style="   display: inline-block;margin-left: auto; padding: 4px 16px;font-size: 13px;font-weight: 500;text-decoration: none; background-color: #ff3115;color: #fff;" >Read More</a>                                    
 
-                                  
-                               
-                            </div>
-                           
-                        </div> 
-                    </div> 
-                    <div class="col-lg-4 col-md-6">
-                        <div class="cource-item blue-color">
-                            <div class="cource-img">
-                                   <img src="images/courses/2.jpg" alt="">
-                                   <a class="image-link" href="courses-details.html" title="University Tour 2018">
-                                       <i class="fa fa-link"></i>
-                                   </a>
-                            
+
+
+           
+
+        <?php
+            try {   
+                    //selecting data by id 
+               $stmt = $con->query('SELECT id, blog_title,blog_content,image FROM blog ORDER BY id DESC');
+
+                while($row = $stmt->fetch_array()){
+                    
+                echo    '<div class="col-lg-4 col-md-6"> ';
+                echo        '<div class="cource-item">';
+                echo        ' <div class="cource-img">';
+                echo                 ' <img src=""  alt="">
+
+          
+                 <a class="image-link" href="courses-details.html" title="University Tour 2018"> 
+                 <i class="fa fa-link"></i> </a>';
+                echo         '  </div>';
+                echo    '    <div class="course-body">' ;
+                echo       ' <h4 class="title"><a href="courses-details.html">'.$row['blog_title'].'</a></h4>' ;
+                echo      ' <p>'.$row['blog_content'].' 
+                            </p>';
+
+                echo        '  <a href="#" class="news-btn"style="   display: inline-block;margin-left: auto; padding: 4px 16px;font-size: 13px;font-weight: 500;text-decoration: none; background-color: #ff3115;color: #fff;" >Read More</a>';                                    
                               
-                            </div>
-                            <div class="course-body">
+                echo    ' </div>';                           
+                echo  ' </div> ';
+                echo    ' </div> ';
+
                                   
-                                    <h4 class="title"><a href="courses-details.html">Music Course</a></h4>
-                            <p>Last Blog and new site Last Blog and new site
-                            Last Blog and new site Last Blog and new....
-                            </p>
+             
 
-      <a href="#" class="news-btn"style="   display: inline-block;margin-left: auto; padding: 4px 16px;font-size: 13px;font-weight: 500;text-decoration: none; background-color: #ff3115;color: #fff;" >Read More</a>                                    
+               }
 
-                            </div>
-                      
-                        </div> 
-                    </div> 
-                    <div class="col-lg-4 col-md-6">
-                        <div class="cource-item blue-color">
-                            <div class="cource-img">
-                                   <img src="images/courses/3.jpg" alt="">
-                                 
-                                       <i class="fa fa-link"></i>
-                                   </a>
-                             
-                          
-                            </div>
-                            <div class="course-body">
-                            
-                                    <h4 class="title"><a href="courses-details.html">Music Course</a></h4>
-                            <p>Last Blog and new site Last Blog and new site
-                            Last Blog and new site Last Blog and new....
-                            </p>
+           } catch(PDOException $e) {
+               echo $e->getMessage();
+           }
+       ?>
 
-      <a href="#" class="news-btn"style="   display: inline-block;margin-left: auto; padding: 4px 16px;font-size: 13px;font-weight: 500;text-decoration: none; background-color: #ff3115;color: #fff;" >Read More</a>                                    
+			    </div> <!-- end row -->
 
-                            </div>
-                      
-                        </div> 
-                    </div> 
-                    <div class="col-lg-4 col-md-6">
-                        <div class="cource-item blue-color">
-                            <div class="cource-img">
-                                   <img src="images/courses/4.jpg" alt="">
-                                   <a class="image-link" href="courses-details.html" title="University Tour 2018">
-                                       <i class="fa fa-link"></i>
-                                   </a>
-                        
-                             
-                            </div>
-                            <div class="course-body">
-                                 
-                                    <h4 class="title"><a href="courses-details.html">Music Course</a></h4>
-                                    <p>Last Blog and new site Last Blog and new site
-                                    Last Blog and new site Last Blog and new....
-                                    </p>
-
-      <a href="#" class="news-btn"style="   display: inline-block;margin-left: auto; padding: 4px 16px;font-size: 13px;font-weight: 500;text-decoration: none; background-color: #ff3115;color: #fff;" >Read More</a>                                    
-
-                            </div>
-                      
-                        </div> 
-                    </div> 
-                    <div class="col-lg-4 col-md-6">
-                        <div class="cource-item blue-color">
-                            <div class="cource-img">
-                                   <img src="images/courses/5.jpg" alt="">
-                                   <a class="image-link" href="courses-details.html" title="University Tour 2018">
-                                       <i class="fa fa-link"></i>
-                                   </a>
-                          
-                            </div>
-                            <div class="course-body">
-                                 
-                                    <h4 class="title"><a href="courses-details.html">Music Course</a></h4>
-                                    <p>Last Blog and new site Last Blog and new site
-                                    Last Blog and new site Last Blog and new....
-                                    </p>
-      <a href="#" class="news-btn"style="   display: inline-block;margin-left: auto; padding: 4px 16px;font-size: 13px;font-weight: 500;text-decoration: none; background-color: #ff3115;color: #fff;" >Read More</a>                                    
-
-                            </div>
-                       
-                        </div> 
-                    </div> 
-                    <div class="col-lg-4 col-md-6">
-                        <div class="cource-item blue-color">
-                            <div class="cource-img">
-                                   <img src="images/courses/6.jpg" alt="">
-                                   <a class="image-link" href="courses-details.html" title="University Tour 2018">
-                                       <i class="fa fa-link"></i>
-                                   </a>
-                              
-                            </div>
-                            <div class="course-body">
-                                  
-                                    <h4 class="title"><a href="courses-details.html">Music Course</a></h4>
-                                    <p>Last Blog and new site Last Blog and new site
-                                    Last Blog and new site Last Blog and new....
-                                    </p>
-
-                                
-      <a href="#" class="news-btn"style="   display: inline-block;margin-left: auto; padding: 4px 16px;font-size: 13px;font-weight: 500;text-decoration: none; background-color: #ff3115;color: #fff;" >Read More</a>                                    
-                                  
-
-                            </div>
-                   
-                        </div> 
-                    </div>
-			    </div>
 
                 <div class="col-lg-12 text-center">
                    <div class="btn-part mt-20">

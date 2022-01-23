@@ -101,56 +101,95 @@
     </script>
     <!--end  form req..... -->
 
+
+    <script src="js/jquery-1.11.2.js"></script>
+    <script>hsjQuery = window['jQuery'];</script>
+    <meta property="og:description" content="Start exploring the best schools and universities for international students. We carefully review each university and programme to ensure we are providing you with the best possible options and outcomes.">
+    <meta property="og:title" content="A single application for international students to apply to the world’s best schools and universities">
+    <meta name="twitter:description" content="Start exploring the best schools and universities for international students. We carefully review each university and programme to ensure we are providing you with the best possible options and outcomes.">
+    <meta name="twitter:title" content="A single application for international students to apply to the world’s best schools and universities">
+
+    <style>
+a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
+</style>
+<link rel="stylesheet" href="js/module_32002310298_Header_Menu.min.css">
+<link rel="stylesheet" href="js/module_31411208523_MIM_Banner_Module.min.css">
+<link rel="stylesheet" href="js/module_31411264910_FAQ_Module.min.css">
+<link rel="stylesheet" href="js.min.css">
+
+<!-- Editor Styles -->
+<style id="hs_editor_style" type="text/css">
+#hs_cos_wrapper_widget_1639647566705  { display: block !important; padding-left: 0px !important }
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Red+Hat+Display:regular,700|Red+Hat+Text:regular,500&amp;display=swap">
+    
+
+
+
+<!--  Added by GoogleAnalytics integration -->
+<script>
+var _hsp = window._hsp = window._hsp || [];
+_hsp.push(['addPrivacyConsentListener', function(consent) { if (consent.allowed || (consent.categories && consent.categories.analytics)) {
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','../www.google-analytics.com/analytics.js','ga');
+  ga('create','UA-37767707-2','auto');
+  ga('send','pageview');
+}}]);
+</script>
+
+<!-- /Added by GoogleAnalytics integration -->
+
+<!--  Added by GoogleTagManager integration -->
+<script>
+var _hsp = window._hsp = window._hsp || []; _hsp.push(['addPrivacyConsentListener', function(consent) { if (consent.allowed || (consent.categories && consent.categories.analytics)) {
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W4T4GS');
+}}]);
+</script>
+
+
+<link rel="stylesheet" href="css/layout.min.css">
+<link rel="stylesheet" href="js/mim-lp-style.min.css">
+<link href="js/font-awesome.min.css" rel="stylesheet"> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </head>
 
 
 <body class="home1">
-    <!--Preloader area start here-->
-    <div class="book_preload">
-        <div class="book">
-            <div class="book__page"></div>
-            <div class="book__page"></div>
-            <div class="book__page"></div>
-        </div>
-    </div>
-    <!--Preloader area end here-->
+  
 
     <!--Full width header Start-->
-    <div class="full-width-header">
-
-        <!-- Toolbar Start -->
-        <div class="rs-toolbar">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="rs-toolbar-left">
-                            <div class="welcome-message">
-                                <i class="fa fa-bank"></i><span>Welcome to Higher Study Abroad</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="rs-toolbar-right">
-                            <div class="toolbar-share-icon">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                            <a href="admin/index.php" class="apply-btn">Apply Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Toolbar End -->
+    <div class="full-width-header">    
 
         <!--Header Start-->
         <header id="rs-header" class="rs-header">
-
-
             <!-- Menu Start -->
             <div class="menu-area menu-sticky">
                 <div class="container">
@@ -164,20 +203,21 @@
                                 <nav class="rs-menu">
                                     <ul class="nav-menu">
                                         <!-- Home -->
-                                        <li class="current-menu-item current_page_item menu-item-has-children"> <a href="index.php" class="home">Home</a>
+                                        <li class="current-menu-item current_page_item menu-item-has-children">
+                                             <a href="index.php" class="home">Home</a>
                                          
                                         </li>
                                         <!-- End Home -->
 
 
-                        <!--Rankings Menu Start-->
-                        <li class="menu-item-has-children"> <a href="#">Rankings</a>
-                        <ul class="sub-menu">
-                        <li><a href="university_list.php">QS World University Rankings</a></li>
-                        <li><a href="subject_list.php">QS World University Rankings by Subject</a></li>
-                        </ul>
-                    </li>
-                    <!--Rankings Menu End--> 
+                                            <!--Rankings Menu Start-->
+                                            <li class="menu-item-has-children"> <a href="#">Rankings</a>
+                                            <ul class="sub-menu">
+                                            <li><a href="university_list.php">QS World University Rankings</a></li>
+                                            <li><a href="subject_list.php">QS World University Rankings by Subject</a></li>
+                                            </ul>
+                                        </li>
+                                        <!--Rankings Menu End--> 
 
 
                                                 <!--Discover Menu Start-->
@@ -207,7 +247,7 @@
                                                 <ul class="sub-menu">
                                                 <li> <a href="about.html">SOP</a></li>
                                                 <li><a href="about2.html">LOR</a></li>
-                                                <li><a href="blog-details.html">Sending Application</a></li>
+                                                <li><a href="admission_support.php">Sending Application</a></li>
                                     <li><a href="blog-details.html">Acceptance Letter</a></li>
                                         
                                                                         
@@ -228,11 +268,11 @@
 
                                     </ul>
                                 </nav>
-                                <div class="right-bar-icon rs-offcanvas-link text-right">
+                                <!-- <div class="right-bar-icon rs-offcanvas-link text-right">
                                     <a class="hidden-xs rs-search" data-target=".search-modal" data-toggle="modal" href="#"><i class="fa fa-search"></i></a>
 
                                     <a id="nav-expander" class="nav-expander fixed"><i class="fa fa-bars fa-lg white"></i></a>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
