@@ -16,7 +16,7 @@
         		<div class="contact-comment-section">
         			<h2 style="color:green;text-align:center; font-weight:bold ">Request your free consultation</h2>
                     <div id="form-messages"></div>
-					<form id="contact-form" method="post" action="#">
+					<form id="contact-form" method="post" action="admin/add_apply.php">
 						<fieldset>
 
                         
@@ -621,17 +621,200 @@
 							</div>
 
 
+                            <div class="row">                                
+								<div class="col-md-6 col-sm-12">
+									<div class="form-group">
 
+                                    <label for="exampleFormControlSelect1">Intended study level</label> 
 
+                                       <select class="form-control" id="exampleFormControlSelect1">
+                                       <option selected="true" disabled="disabled" >Select</option>                                       
+                                       <option value="study_destination" >Bachelor's</option>
+                                       <option value="study_destination" >Master's</option>
+                                       <option value="study_destination" > MBA </option>
+                                       <option value="study_destination" > PhD </option>
+                                       <option value="study_destination" > Asia </option>
+                                       <option value="study_destination" > Research </option>
+                                       <option value="study_destination" > Diploma/Certificate </option>
+                                   
+                                                          
+                                       </select>
+										
+									</div>
+								</div>
 
+								<div class="col-md-6 col-sm-12">
+                                <div class="form-group">
 
+                                <label for="exampleFormControlSelect1">Subject of Interest </label> 
 
+                                <select class="form-control" id="exampleFormControlSelect1">
 
-
-											        
-							<div class="form-group mb-0">
-								<input class="btn-send" type="submit" value="Submit Now">
+                                       <option selected="true" disabled="disabled" >Select</option>                                       
+                                       <option value="intake_date" >Accounting & Finance</option>
+                                       <option value="intake_date" >Agriculture & Forestry</option>
+                                       <option value="intake_date" >Anatomy & Physiology</option>
+                                       <option value="intake_date" >Anthropology</option>
+                                       <option value="intake_date" >Architecture</option>
+                                       <option value="intake_date" >Area Studies</option>
+                                       <option value="intake_date" >Art & Design</option>
+                                       <option value="intake_date" >Arts & Humanities</option>
+                                       <option value="intake_date" >Biological Sciences</option>
+                                       <option value="intake_date" >Built Environment</option>
+                                       <option value="intake_date" >Business & Management Studies</option>
+                                       <option value="intake_date" >Chemistry</option>
+                                       <option value="intake_date" >Classics & Ancient History</option>
+                                       <option value="intake_date" >Communication & Media Studies</option>
+                                       <option value="intake_date" >Computer Science & Information Systems</option>
+                                       <option value="intake_date" >Dentistry</option>
+                                       <option value="intake_date" >Development Studies</option>
+                                       <option value="intake_date" >Earth & Marine Sciences</option>
+                                       <option value="intake_date" >Economics & Econometrics</option>
+                                       <option value="intake_date" >Education & Training</option>
+                                       <option value="intake_date" >Engineering - Chemical</option>
+                                       <option value="intake_date" >Engineering - Civil & Structural</option>
+                                       <option value="intake_date" >Engineering - Electrical & Electronic</option>
+                                       <option value="intake_date" >Engineering - General</option>
+                                       <option value="intake_date" >Engineering - Manufacturing & Production</option>
+                                       <option value="intake_date" >Engineering - Mechanical & Aeronautical</option>
+                                       <option value="intake_date" >Engineering - Mineral & Mining</option>
+                                       <option value="intake_date" >English Language & Literature</option>
+                                       <option value="intake_date" >Environmental Sciences</option>
+                                       <option value="intake_date" >Gender and Diversity</option>
+                                       <option value="intake_date" >Geography</option>
+                                       <option value="intake_date" >History & Archaeology</option>
+                                       <option value="intake_date" >Hospitality & Leisure Management</option>
+                                       <option value="intake_date" >Human Resources Management</option>
+                                       <option value="intake_date" >International Relations / Studies / Affairs</option>
+                                       <option value="intake_date" >Law & Legal Studies</option>
+                                       <option value="intake_date" >Library & Information Management</option>
+                                       <option value="intake_date" >Linguistics</option>
+                                       <option value="intake_date" >Logistics / Supply Chain Management</option>
+                                       <option value="intake_date" >Marketing</option>
+                                       <option value="intake_date" >Materials Sciences</option>
+                                       <option value="intake_date" >Mathematics</option>
+                                       <option value="intake_date" >Medicine & Related Studies</option>
+                                       <option value="intake_date" >Nursing</option>
+                                       <option value="intake_date" >Pharmacy & Pharmacology</option>
+                                       <option value="intake_date" >Philosophy</option>
+                                       <option value="intake_date" >Physics & Astronomy</option>
+                                       <option value="intake_date" >Politics</option>
+                                       <option value="intake_date" >Sociology & Social Studies</option>
+                                       <option value="intake_date" >Sports-related Subjects</option>
+                                       <option value="intake_date" >Statistics & Operational Research</option>
+                                       <option value="intake_date" >Divinity & Religious Studies</option>
+                                   
+                                      
+                                                          
+                                       </select>
+                                    
+                                    
+                                    </div>
+								</div>
 							</div>
+
+
+
+
+
+
+
+                          <div class="row">                                
+								<div class="col-md-6 col-sm-12">
+									<div class="form-group">
+
+                                    <label for="exampleFormControlSelect1">Yearly tuition budget?*</label> 
+
+                                       <select class="form-control" id="exampleFormControlSelect1">
+                                       <option selected="true" disabled="disabled" >Select</option>                                       
+                                       <option value="eng_language_abroad" >Less then 6.000 USD</option>
+                                       <option value="eng_language_abroad" >Between 6.000 USD and 12.000 USD</option>
+                                       <option value="eng_language_abroad" >Between 12.000 USD and 20.000 USD</option>
+                                       <option value="eng_language_abroad" >More than 20.000 USD</option>
+                                       <option value="eng_language_abroad" >I can only study if I get a full scholarship</option>
+                                                         
+                                       </select>
+										
+									</div>
+								</div>
+
+								<div class="col-md-6 col-sm-12">
+                                <div class="form-group">
+
+                                <label for="exampleFormControlSelect1">How are you funding your studies</label> 
+
+                                <select class="form-control" id="exampleFormControlSelect1">
+
+                                       <option selected="true" disabled="disabled" >Select</option>                                       
+                                       <option value="intake_date" >How are you funding your studies?</option>  
+                                       <option value="intake_date" >I am funded by my parents or relatives</option>  
+                                       <option value="intake_date" >I have my own money (self-funded)</option>  
+                                       <option value="intake_date" >I have a student loan</option>  
+                                       <option value="intake_date" >Government or employer sponsorship</option>  
+                                       <option value="intake_date" >Other</option>  
+                                       </select>
+                                    
+                                    
+                                    </div>
+								</div>
+							</div>
+
+
+
+
+
+
+
+                          <div class="row">                                
+								<div class="col-md-6 col-sm-12">
+									<div class="form-group">
+
+                                    <label for="exampleFormControlSelect1">Have you studied abroad for english language / academic program?</label> 
+
+                                       <select class="form-control" id="exampleFormControlSelect1">
+                                       <option selected="true" disabled="disabled" >Please Select</option>                                       
+                                       <option value="eng_language_abroad" >Yes</option>
+                                       <option value="eng_language_abroad" >No</option>
+                                       </select>
+										
+									</div>
+								</div>
+
+								<div class="col-md-6 col-sm-12">
+                                <div class="form-group">
+                                <label for="exampleFormControlSelect1">Name of the current or most recent school or university you attended?*</label> 
+
+                                <input type="text" class="form-control" name="attended_s_u_name" placeholder="" >
+                                    
+                                    
+                                    </div>
+								</div>
+							</div>
+
+
+
+
+                            
+
+                        <input class="form-check-input" name="check_one" type="checkbox" value="" id="invalidCheck" >
+                            <label class="form-check-label" for="invalidCheck">
+                            I am happy to receive newsletters and up-to-date information from QS.
+                            </label>
+										
+									<br>
+                            <input class="form-check-input" type="checkbox" name="check_two" value="" id="invalidCheck" >
+                            <label class="form-check-label" for="invalidCheck">
+                            I am happy to receive information from universities, our media partners and other third party opportunities
+
+                            </label>
+
+                            <p style="color:red">Once you submit your details, our student counselling team will get in touch with you to follow-up.</p>
+
+                        
+											        
+                            <div class="form-group">
+                      <button type="submit" name="Submit" class="btn btn-primary waves">Submit</button>
+                    </div>
 							   
 						</fieldset>
 					</form>						
