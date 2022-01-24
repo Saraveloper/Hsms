@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 07, 2022 at 01:02 PM
+-- Generation Time: Jan 24, 2022 at 05:36 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.1.1
 
@@ -38,7 +38,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`admin_id`, `email`, `password`) VALUES
-(1, 'hasibgkp10@gmail.com', '123456'),
+(1, 'sunnygkp10@gmail.com', '123456'),
 (2, 'admin@admin.com', 'admin');
 
 -- --------------------------------------------------------
@@ -57,6 +57,8 @@ CREATE TABLE `answer` (
 --
 
 INSERT INTO `answer` (`qid`, `ansid`) VALUES
+('55892169bf6a7', '55892169d2efc'),
+('5589216a3646e', '5589216a48722'),
 ('558922117fcef', '5589221195248'),
 ('55892211e44d5', '55892211f1fa7'),
 ('558922894c453', '558922895ea0a'),
@@ -67,7 +69,39 @@ INSERT INTO `answer` (`qid`, `ansid`) VALUES
 ('558973f4c46f2', '558973f4d4abe'),
 ('558973f51600d', '558973f526fc5'),
 ('558973f55d269', '558973f57af07'),
-('558973f5abb1a', '558973f5e764a');
+('558973f5abb1a', '558973f5e764a'),
+('5589751a63091', '5589751a81bf4'),
+('5589751ad32b8', '5589751adbdbd'),
+('5589751b304ef', '5589751b3b04d'),
+('5589751b749c9', '5589751b9a98c');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `blog`
+--
+
+CREATE TABLE `blog` (
+  `id` int(11) NOT NULL,
+  `blog_title` text DEFAULT NULL,
+  `blog_content` text DEFAULT NULL,
+  `image` text DEFAULT NULL,
+  `date` date DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `blog`
+--
+
+INSERT INTO `blog` (`id`, `blog_title`, `blog_content`, `image`, `date`) VALUES
+(1, 'fdsfd', 'fdfsdf', '1641585110_7873.jpg', '2022-01-01'),
+(2, 'fdfdfdf', 'dfdsfd', '1642267393_1714.jpeg', NULL),
+(3, '44', '4777', '1642268059_4321.jpg', NULL),
+(4, '20000000000', 'fdfdfsf', '1642868980_3151.jpg', NULL),
+(5, 'ccc', 'cc', '1642961406_9335.jpg', NULL),
+(6, 'fdsfd', 'fdfsdf', '1642961594_4518.jpg', NULL),
+(7, 'ccc', 'cc', '1642961761_9790.jpg', NULL),
+(8, 'dfdsf', 'fdsf', '1642961795_3799.jpg', NULL);
 
 -- --------------------------------------------------------
 
@@ -95,11 +129,7 @@ INSERT INTO `feedback` (`id`, `name`, `email`, `subject`, `feedback`, `date`, `t
 ('558510a8a1234', 'sunnygkp10', 'sunnygkp10@gmail.com', 'dl;dsnklfn', 'fmdsfld fdj', '2015-06-20', '09:05:12am'),
 ('5585509097ae2', 'sunny', 'sunnygkp10@gmail.com', 'kcsncsk', 'l.mdsavn', '2015-06-20', '01:37:52pm'),
 ('5586ee27af2c9', 'vikas', 'vikas@gmail.com', 'trial feedback', 'triaal feedbak', '2015-06-21', '07:02:31pm'),
-('5589858b6c43b', 'nik', 'nik1@gmail.com', 'good', 'good site', '2015-06-23', '06:12:59pm'),
-('61d0ba44dfab0', 'PRONAY SAHA', 'pronafdfsfy@gmail.com', 'fdf', 'fdsf', '2022-01-01', '09:32:04pm'),
-('61d2f4d18cda0', 'frfr', 'prongfgfgfgfdgay@gmail.com', 'gfg', 'fgfg', '2022-01-03', '02:06:25pm'),
-('61d2f89c38df7', 'ghfgf', 'mhfgfg@gmail.com', 'fdf', 'gf', '2022-01-03', '02:22:36pm'),
-('61d2f95015965', 'gfgf', 'mhmamugfgfn29404@gmail.com', 'gfgfg', 'gfg', '2022-01-03', '02:25:36pm');
+('5589858b6c43b', 'nik', 'nik1@gmail.com', 'good', 'good site', '2015-06-23', '06:12:59pm');
 
 -- --------------------------------------------------------
 
@@ -123,15 +153,16 @@ CREATE TABLE `history` (
 
 INSERT INTO `history` (`email`, `eid`, `score`, `level`, `sahi`, `wrong`, `date`) VALUES
 ('sunnygkp10@gmail.com', '558921841f1ec', 4, 2, 2, 0, '2015-06-23 09:31:26'),
+('sunnygkp10@gmail.com', '558920ff906b8', 4, 2, 2, 0, '2015-06-23 13:32:09'),
 ('avantika420@gmail.com', '558921841f1ec', 4, 2, 2, 0, '2015-06-23 14:33:04'),
 ('avantika420@gmail.com', '5589222f16b93', 4, 2, 2, 0, '2015-06-23 14:49:39'),
+('sunnygkp10@gmail.com', '5589741f9ed52', 4, 5, 3, 2, '2015-06-23 15:07:16'),
 ('mi5@hollywood.com', '5589222f16b93', 4, 2, 2, 0, '2015-06-23 15:12:56'),
 ('nik1@gmail.com', '558921841f1ec', 1, 2, 1, 1, '2015-06-23 16:11:50'),
 ('sunnygkp10@gmail.com', '5589222f16b93', 1, 2, 1, 1, '2015-06-24 03:22:38'),
-('admin@admin.com', '558921841f1ec', 2, 1, 1, 0, '2021-12-31 17:15:29'),
-('admin10@admin.com', '558922ec03021', 1, 2, 1, 1, '2022-01-01 20:22:44'),
-('prrrwoenay@gmail.comew', '55897338a6659', -2, 5, 1, 4, '2022-01-02 13:36:51'),
-('534343ere@gmail.com', '558922ec03021', 1, 2, 1, 1, '2022-01-03 15:58:48');
+('hasib206fgdfgr0@gmail.com', '5589741f9ed52', -5, 5, 0, 5, '2022-01-07 13:03:30'),
+('admin@admin.com', '5589222f16b93', -1, 1, 0, 1, '2022-01-16 17:45:04'),
+('admin@admin.com', '61e9bafb96c61', 0, 1, 1, 0, '2022-01-20 19:41:58');
 
 -- --------------------------------------------------------
 
@@ -150,6 +181,14 @@ CREATE TABLE `options` (
 --
 
 INSERT INTO `options` (`qid`, `option`, `optionid`) VALUES
+('55892169bf6a7', 'usermod', '55892169d2efc'),
+('55892169bf6a7', 'useradd', '55892169d2f05'),
+('55892169bf6a7', 'useralter', '55892169d2f09'),
+('55892169bf6a7', 'groupmod', '55892169d2f0c'),
+('5589216a3646e', '751', '5589216a48713'),
+('5589216a3646e', '752', '5589216a4871a'),
+('5589216a3646e', '754', '5589216a4871f'),
+('5589216a3646e', '755', '5589216a48722'),
 ('558922117fcef', 'echo', '5589221195248'),
 ('558922117fcef', 'print', '558922119525a'),
 ('558922117fcef', 'printf', '5589221195265'),
@@ -193,7 +232,24 @@ INSERT INTO `options` (`qid`, `option`, `optionid`) VALUES
 ('558973f5abb1a', 'bash', '558973f5e7623'),
 ('558973f5abb1a', ' Csh', '558973f5e7636'),
 ('558973f5abb1a', ' ksh', '558973f5e7640'),
-('558973f5abb1a', ' sh', '558973f5e764a');
+('558973f5abb1a', ' sh', '558973f5e764a'),
+('5589751a63091', 'q', '5589751a81bd6'),
+('5589751a63091', 'wq', '5589751a81be8'),
+('5589751a63091', ' both (a) and (b)', '5589751a81bf4'),
+('5589751a63091', ' none of the mentioned', '5589751a81bfd'),
+('5589751ad32b8', ' moves screen down one page', '5589751adbdbd'),
+('5589751ad32b8', 'moves screen up one page', '5589751adbdce'),
+('5589751ad32b8', 'moves screen up one line', '5589751adbdd8'),
+('5589751ad32b8', ' moves screen down one line', '5589751adbde2'),
+('5589751b304ef', ' yy', '5589751b3b04d'),
+('5589751b304ef', 'yw', '5589751b3b05e'),
+('5589751b304ef', 'yc', '5589751b3b069'),
+('5589751b304ef', ' none of the mentioned', '5589751b3b073'),
+('5589751b749c9', 'X', '5589751b9a98c'),
+('5589751b749c9', 'x', '5589751b9a9a5'),
+('5589751b749c9', 'D', '5589751b9a9b7'),
+('5589751b749c9', 'd', '5589751b9a9c9'),
+('5589751bd02ec', 'autoindentation is not possible in vi editor', '5589751bdadaa');
 
 -- --------------------------------------------------------
 
@@ -214,6 +270,8 @@ CREATE TABLE `questions` (
 --
 
 INSERT INTO `questions` (`eid`, `qid`, `qns`, `choice`, `sn`) VALUES
+('558920ff906b8', '55892169bf6a7', 'what is command for changing user information??', 4, 1),
+('558920ff906b8', '5589216a3646e', 'what is permission for view only for other??', 4, 2),
 ('558921841f1ec', '558922117fcef', 'what is command for print in php??', 4, 1),
 ('558921841f1ec', '55892211e44d5', 'which is a variable of php??', 4, 2),
 ('5589222f16b93', '558922894c453', 'what is correct statement in c++??', 4, 1),
@@ -224,7 +282,12 @@ INSERT INTO `questions` (`eid`, `qid`, `qns`, `choice`, `sn`) VALUES
 ('55897338a6659', '558973f4c46f2', 'Which is loaded into memory when system is booted?', 4, 2),
 ('55897338a6659', '558973f51600d', ' The process of starting up a computer is known as', 4, 3),
 ('55897338a6659', '558973f55d269', ' Bootstrapping is also known as', 4, 4),
-('55897338a6659', '558973f5abb1a', 'The shell used for Single user mode shell is:', 4, 5);
+('55897338a6659', '558973f5abb1a', 'The shell used for Single user mode shell is:', 4, 5),
+('5589741f9ed52', '5589751a63091', ' Which command is used to close the vi editor?', 4, 1),
+('5589741f9ed52', '5589751ad32b8', ' In vi editor, the key combination CTRL+f', 4, 2),
+('5589741f9ed52', '5589751b304ef', ' Which vi editor command copies the current line of the file?', 4, 3),
+('5589741f9ed52', '5589751b749c9', ' Which command is used to delete the character before the cursor location in vi editor?', 4, 4),
+('5589741f9ed52', '5589751bd02ec', ' Which one of the following statement is true?', 4, 5);
 
 -- --------------------------------------------------------
 
@@ -249,10 +312,13 @@ CREATE TABLE `quiz` (
 --
 
 INSERT INTO `quiz` (`eid`, `title`, `sahi`, `wrong`, `total`, `time`, `intro`, `tag`, `date`) VALUES
+('558920ff906b8', 'Linux : File Managment', 2, 1, 2, 5, '', 'linux', '2015-06-23 09:03:59'),
 ('558921841f1ec', 'Php Coding', 2, 1, 2, 5, '', 'PHP', '2015-06-23 09:06:12'),
 ('5589222f16b93', 'C++ Coding', 2, 1, 2, 5, '', 'c++', '2015-06-23 09:09:03'),
 ('558922ec03021', 'Networking', 2, 1, 2, 5, '', 'networking', '2015-06-23 09:12:12'),
-('55897338a6659', 'Linux:startup', 2, 1, 5, 10, '', 'linux', '2015-06-23 14:54:48');
+('55897338a6659', 'Linux:startup', 2, 1, 5, 10, '', 'linux', '2015-06-23 14:54:48'),
+('5589741f9ed52', 'Linux :vi Editor', 2, 1, 5, 10, '', 'linux', '2015-06-23 14:58:39'),
+('61e9bafb96c61', 'Dd', 0, 0, 0, 0, '', '', '2022-01-20 19:41:47');
 
 -- --------------------------------------------------------
 
@@ -275,12 +341,7 @@ INSERT INTO `rank` (`email`, `score`, `time`) VALUES
 ('avantika420@gmail.com', 8, '2015-06-23 14:49:39'),
 ('mi5@hollywood.com', 4, '2015-06-23 15:12:56'),
 ('nik1@gmail.com', 1, '2015-06-23 16:11:50'),
-('prodfdsfnay@gmail.com', -2, '2021-12-31 17:10:56'),
-('admin10@admin.com', -59, '2022-01-01 20:22:44'),
-('admin16560@admin.com', -60, '2022-01-01 20:29:21'),
-('pdsdronay@gmail.com', -5, '2022-01-02 12:33:27'),
-('prrrwoenay@gmail.comew', -2, '2022-01-02 13:36:51'),
-('534343ere@gmail.com', 1, '2022-01-03 15:58:48');
+('hasib206fgdfgr0@gmail.com', -5, '2022-01-07 13:03:30');
 
 -- --------------------------------------------------------
 
@@ -302,7 +363,18 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`name`, `gender`, `college`, `email`, `mob`, `password`) VALUES
-('Dddd', 'F', 'ddddd', 'hasib20ee60@gmail.com', 44442322, '25f9e794323b453885f5181f1b624d0b');
+('Avantika', 'F', 'KNIT sultanpur', 'avantika420@gmail.com', 7785068889, 'e10adc3949ba59abbe56e057f20f883e'),
+('Mark Zukarburg', 'M', 'Stanford', 'ceo@facebook.com', 987654321, 'e10adc3949ba59abbe56e057f20f883e'),
+('Dd', 'M', 'dd', 'hasib20aaa60@gmail.com', 4455667, 'c74b2003646ad2123dcfba537a41bd9d'),
+('Sss', 'M', 'ss', 'hasibsssw2060@gmail.com', 333442544, '16b360faad004b2386c155ebfaeffceb'),
+('Dd', 'M', 'dd', 'hasidfdb2060@gmail.com', 343434343, '9b4da352f6e432d64f545e1704590b53'),
+('Komal', 'F', 'KNIT sultanpur', 'komalpd2011@gmail.com', 7785068889, 'e10adc3949ba59abbe56e057f20f883e'),
+('Tom Cruze', 'M', 'Hollywood', 'mi5@hollywood.com', 7785068889, 'e10adc3949ba59abbe56e057f20f883e'),
+('Netcamp', 'M', 'KNIT sultanpur', 'netcamp@gmail.com', 987654321, 'e10adc3949ba59abbe56e057f20f883e'),
+('Nikunj', 'M', 'XYZ', 'nik1@gmail.com', 987, '202cb962ac59075b964b07152d234b70'),
+('Sunny', 'M', 'KNIT sultanpur', 'sunnygkp10@gmail.com', 7785068889, 'e10adc3949ba59abbe56e057f20f883e'),
+('User', 'M', 'cimt', 'user@user.com', 11, 'e10adc3949ba59abbe56e057f20f883e'),
+('Vikash', 'M', 'KNIT sultanpur@gmail.com', 'vikash@gmail.com', 7785068889, 'e10adc3949ba59abbe56e057f20f883e');
 
 --
 -- Indexes for dumped tables
@@ -313,6 +385,12 @@ INSERT INTO `user` (`name`, `gender`, `college`, `email`, `mob`, `password`) VAL
 --
 ALTER TABLE `admin`
   ADD PRIMARY KEY (`admin_id`);
+
+--
+-- Indexes for table `blog`
+--
+ALTER TABLE `blog`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `user`
@@ -329,6 +407,12 @@ ALTER TABLE `user`
 --
 ALTER TABLE `admin`
   MODIFY `admin_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT for table `blog`
+--
+ALTER TABLE `blog`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
