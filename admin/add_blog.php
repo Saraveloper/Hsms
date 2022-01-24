@@ -16,7 +16,7 @@
 			$errorMsg = 'Please input blog_content';
 		}
         {
-			$imgExt = strtolower(pathinfo($imgName, PATHINFO_EXTENSION));
+			$imgExt = strtolower(pathinfo('uploads/'.$imgName, PATHINFO_EXTENSION));
 
 			$allowExt  = array('jpeg', 'jpg', 'png', 'gif');
 

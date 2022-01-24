@@ -261,6 +261,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                       
                                          <!--Courses Menu Start-->
                                          <li class="menu-item-has-children"> <a href="about.php">About</a> </li>                                                                                                                        
+                                         <li class="menu-item-has-children"> <a href="apply.php">Apply</a> </li>                                                                                                                        
                                                
                                             </ul>
                                         </li>
