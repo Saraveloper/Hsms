@@ -129,7 +129,7 @@
                              
                                     <ul class="nav-menu">
                                         <!-- Home -->
-                                       <li> <a href="index.html"><img src="images/logo.png" hwight="50px" width="50px" alt="logo"></a>
+                                       <li> <a href="index.html"><img src="images/logo.png" height="50px" width="50px" alt="logo"></a>
                                         </li>
                                         <li class="current-menu-item current_page_item menu-item-has-children">
                                              <a href="index.php" class="home">Home</a>
@@ -180,7 +180,7 @@
                                                 <ul class="sub-menu">
                                                 <li> <a href="sop.php">SOP</a></li>
                                                 <li><a href="lor.php">LOR</a></li>
-                                                <li><a href="apply.php">Sending Application</a></li>
+                                                <li><a href="submit_application.php">Submit Application</a></li>
                                                   <li><a href="acceptance_letter.php">Acceptance Letter</a></li>
                                         
                                                                         

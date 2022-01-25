@@ -29,7 +29,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <div class="row">
   
 <div class="col-lg-6">
-<span class="logo">HEIMS</span>
+<span class="logo">Higher study Abroad</span>
 
 
 

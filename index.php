@@ -51,82 +51,6 @@
 
 
 
-    <div id="rs-courses" class="rs-courses rs-courses-style6 sec-color sec-spacer">
-			<div class="container">
-			<div class="sec-title2 mb-50 text-center">
-                <span class="primary-color">Latest Blog</span>       
-                <h2>Top Searched</h2> 
-            </div>
-
-				<div class="row">
-        <?php
-            try {   
-                    //selecting data by id 
-               $stmt = $con->query('SELECT id, blog_title,blog_content,image FROM blog ORDER BY id DESC');
-
-                while($row = $stmt->fetch_array()){
-                    
-                echo    '<div class="col-lg-4 col-md-6"> ';
-                echo        '<div class="cource-item">';
-                echo        ' <div class="cource-img">';
-                echo                 ' <img src=""  alt="">
-
-          
-                 <a class="image-link" href="courses-details.html" title="University Tour 2018"> 
-                 <i class="fa fa-link"></i> </a>';
-                echo         '  </div>';
-                echo    '    <div class="course-body">' ;
-                echo       ' <h4 class="title"><a href="courses-details.html">'.$row['blog_title'].'</a></h4>' ;
-                echo      ' <p>'.$row['blog_content'].' 
-                            </p>';
-
-                echo        '  <a href="#" class="news-btn"style="   display: inline-block;margin-left: auto; padding: 4px 16px;font-size: 13px;font-weight: 500;text-decoration: none; background-color: #ff3115;color: #fff;" >Read More</a>';                                    
-                              
-                echo    ' </div>';                           
-                echo  ' </div> ';
-                echo    ' </div> ';
-
-                                  
-             
-
-               }
-
-           } catch(PDOException $e) {
-               echo $e->getMessage();
-           }
-       ?>
-
-			    </div> <!-- end row -->
-
-
-                <div class="col-lg-12 text-center">
-                   <div class="btn-part mt-20">
-                       <a class="readon2" href="#">View All Courses</a>
-                   </div> 
-                </div>
-			</div>
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
 
     <!-- Counter Up Section Start-->
     <div class="rs-counter pt-100 pb-70 bg3">
@@ -180,10 +104,8 @@
 
 
 
-
-
     <!-- Calltoaction Start -->
-    <div id="rs-calltoaction" class="rs-calltoaction sec-spacer bg4">
+    <div id="rs-calltoaction" class="rs-calltoaction sec-spacer bg4" style="margin-bottom: -99px">
         <div class="container">
             <div class="rs-cta-inner text-center">
                 <div class="sec-title mb-50 text-center">
@@ -198,125 +120,6 @@
 
 
 
-
-    <!-- Latest News Start -->
-    <div id="rs-latest-news" class="rs-latest-news sec-spacer">
-        <div class="container">
-            <div class="sec-title mb-50 text-center">
-                <h2>OUR LASTEST NEWS</h2>
-                <p>Fusce sem dolor, interdum in efficitur at, faucibus nec lorem. Sed nec molestie justo.</p>
-            </div>
-            <div class="row">
-
-                <div class="col-md-6">            
-
-  
-                    <div class="news-normal-block">                    
-                        <div class="news-img">
-                            <a href="#">
-                                <img src="images/blog/1.jpg" alt="" />                             
-                            </a>
-                        </div>
-
-                        <div class="news-date">
-                            <i class="fa fa-calendar-check-o"></i>
-                            <span>June  28,  2017</span>
-                        </div>
-
-                        <h4 class="news-title"><a href="blog-details.html"> 
-                        <span>gfdgd</span></a></h4>
-                        
-                      
-                        <div class="news-desc">
-                            <p>
-                       
-                            <span>gfg</span>
-                            </p>
-                        </div>
-
-
-                        <div class="news-btn">
-                            <a href="#">Read More</a>
-                        </div>
-
-                    </div>
-                </div>
-
-
-
-
-                <div class="col-md-6">
-                    <div class="news-list-block">
-                        <div class="news-list-item">
-                            <div class="news-img">
-                                <a href="#">
-                                    <img src="images/blog/2.jpg" alt="" />
-                                </a>
-                            </div>
-                            <div class="news-content">
-                                <h5 class="news-title"><a href="blog-details.html">While the lovely valley team work</a></h5>
-                                <div class="news-date">
-                                    <i class="fa fa-calendar-check-o"></i>
-                                    <span>June  28,  2017</span>
-                                </div>
-                                <div class="news-desc">
-                                    <p>
-                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="news-list-item">
-                            <div class="news-img">
-                                <a href="#">
-                                    <img src="images/blog/3.jpg" alt="" />
-                                </a>
-                            </div>
-                            <div class="news-content">
-                                <h5 class="news-title"><a href="blog-details.html">I must explain to you how all this idea</a></h5>
-                                <div class="news-date">
-                                    <i class="fa fa-calendar-check-o"></i>
-                                    <span>June  28,  2017</span>
-                                </div>
-                                <div class="news-desc">
-                                    <p>
-                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="news-list-item">
-                            <div class="news-img">
-                                <a href="#">
-                                    <img src="images/blog/4.jpg" alt="" />
-                                </a>
-                            </div>
-                            <div class="news-content">
-                                <h5 class="news-title"><a href="blog-details.html">I should be incapable of drawing a stroke</a></h5>
-                                <div class="news-date">
-                                    <i class="fa fa-calendar-check-o"></i>
-                                    <span>June  28,  2017</span>
-                                </div>
-                                <div class="news-desc">
-                                    <p>
-                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Latest News End -->
-
-  
-
-
-
-
-   
 
 
 <!-- Footer Start -->
