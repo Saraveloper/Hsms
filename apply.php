@@ -561,12 +561,11 @@
 								<div class="col-md-6 col-sm-12">
                                 <div class="form-group">
                                         <label for="exampleFormControlSelect1">have you taken an english exam?</label>
-                                       
-                                        <select class="form-control" id="exampleFormControlSelect1">                                            
+                                        <select class="form-control" id="exam_yes_no" name="exam_yes_no">                                            
                                         <option selected="true" disabled="disabled" >Select</option>
 
-                                        <option value="exam_yes_no" >Yes</option>
-                                        <option value="exam_yes_no" >No</option>
+                                        <option value="yes" >Yes</option>
+                                        <option value="no" >No</option>
                                                            
                                         </select>
                                     </div>
@@ -582,20 +581,18 @@
 									<div class="form-group">
 
                                     <label for="exampleFormControlSelect1">Study Destination</label> 
-
-                                       <select class="form-control" id="exampleFormControlSelect1">
+                                   
+                                       <select class="form-control" id="study_destination"  name="study_destination">
                                        <option selected="true" disabled="disabled" >Select</option>                                       
-                                       <option value="study_destination" >United Kingdom</option>
-                                       <option value="study_destination" >United State</option>
-                                       <option value="study_destination" > Australia </option>
-                                       <option value="study_destination" > Canada </option>
-                                       <option value="study_destination" > Asia </option>
-                                       <option value="study_destination" > Other European Country </option>
-                                       <option value="study_destination" > Latin America </option>
-                                       <option value="study_destination" > Other</option>
-                                                          
-                                       </select>
-										
+                                       <option value="United kingdom" >United Kingdom</option>
+                                       <option value="United State" >United State</option>
+                                       <option value="Australia" > Australia </option>
+                                       <option value="Canada" > Canada </option>
+                                       <option value="Asia" > Asia </option>
+                                       <option value="Other European Country" > Other European Country </option>
+                                       <option value="Latin America" > Latin America </option>
+                                       <option value="Other" > Other</option>                                                          
+                                       </select>										
 									</div>
 								</div>
 
@@ -604,14 +601,13 @@
 
                                 <label for="exampleFormControlSelect1">Intake Date</label> 
 
-                                <select class="form-control" id="exampleFormControlSelect1">
+                                      <select class="form-control" id="intake_date" name="intake_date">
 
                                        <option selected="true" disabled="disabled" >Select</option>                                       
-                                       <option value="intake_date" >Sep 2022</option>
-                                       <option value="intake_date" >Jan/Feb 2023</option>
-                                       <option value="intake_date" > Seb 2023 </option>
-                                       <option value="intake_date" > 2024 onwards </option>
-                                      
+                                       <option value="Sep 2022" >Sep 2022</option>
+                                       <option value="Jan/Feb 2023" >Jan/Feb 2023</option>
+                                       <option value="Sep 2023" > Sep 2023 </option>
+                                       <option value=" 2024 onwards" > 2024 onwards </option>                                     
                                                           
                                        </select>
                                     
@@ -627,7 +623,7 @@
 
                                     <label for="exampleFormControlSelect1">Intended study level</label> 
 
-                                       <select class="form-control" id="exampleFormControlSelect1">
+                                       <select class="form-control" id="intended_study_level" name="intended_study_level">
                                        <option selected="true" disabled="disabled" >Select</option>                                       
                                        <option value="study_destination" >Bachelor's</option>
                                        <option value="study_destination" >Master's</option>

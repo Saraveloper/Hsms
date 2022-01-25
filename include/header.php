@@ -224,7 +224,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                 <li class="menu-item-has-children"> <a href="#">Discover</a>
                                                 <ul class="sub-menu">                                          
                                                 <li><a href="about2.html">Destination Guide</a></li>
-                                                <li><a href="blog.html">Subject Guide</a></li>
+                                                <li><a href="student_guide.php">Subject Guide</a></li>
                                                 <li><a href="blog-details.html">Scholarship Advice</a></li>
                                                                                        
                                             </ul>
