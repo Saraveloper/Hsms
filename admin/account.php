@@ -239,11 +239,11 @@ $q12=mysqli_query($con,"SELECT * FROM user WHERE email='$e' " )or die('Error231'
 while($row=mysqli_fetch_array($q12) )
 {
 $name=$row['name'];
-$gender=$row['gender'];
+// $gender=$row['gender'];
 $college=$row['college'];
 }
 $c++;
-echo '<tr><td style="color:#99cc32"><b>'.$c.'</b></td><td>'.$name.'</td><td>'.$gender.'</td><td>'.$college.'</td><td>'.$s.'</td><td>';
+echo '<tr><td style="color:#99cc32"><b>'.$c.'</b></td><td>'.$name.'</td><td>'.$college.'</td><td>'.$s.'</td><td>';
 }
 echo '</table></div></div>';}
 ?>
