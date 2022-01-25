@@ -137,8 +137,8 @@
                                             <!--Rankings Menu Start-->
                                             <li class="menu-item-has-children"> <a href="#">Rankings</a>
                                             <ul class="sub-menu">
-                                            <li><a href="university_list.php">QS World University Rankings</a></li>
-                                            <li><a href="subject_list.php">QS World University Rankings by Subject</a></li>
+                                            <li><a href="university_list.php"> World University Rankings</a></li>
+                                            <li><a href="subject_list.php"> World University Rankings by Subject</a></li>
                                             </ul>
                                         </li>
                                         <!--Rankings Menu End--> 
@@ -150,7 +150,7 @@
                                                 <li><a href="destination_guide.php">Destination Guide</a></li>
                                                 <li><a href="student_guide.php">Subject Guide</a></li>
                                                 <li><a href="scholarship_advice.php">Scholarship Advice</a></li>
-                                                <li><a href="submit_app.php">submit</a></li>
+                                               
                                                                                        
                                             </ul>
                                             </li>
@@ -161,7 +161,12 @@
                                             <li class="menu-item-has-children"> <a href="#">PREPARE</a>
                                                 <ul class="sub-menu">
                                                 <li> <a href="admin/index.php">Free Test</a></li>
-                                                <!-- <li><a href="about2.html">Student Guide</a></li> -->
+                                                <li><a href="ielts.php">IELTS </a></li>
+                                                <li><a href="gre.php">GRE </a></li>
+
+                                                <li><a href="sta.php">STA </a></li>
+                                                <li><a href="toefl.php">TOEFL </a></li>
+                                                <li><a href="gmat.php">GMAT </a></li>
                                                                         
                                             </ul>
                                             </li>

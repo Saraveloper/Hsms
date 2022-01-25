@@ -51,11 +51,6 @@
 
 
 
-
-
-
-
-
     <div id="rs-courses" class="rs-courses rs-courses-style6 sec-color sec-spacer">
 			<div class="container">
 			<div class="sec-title2 mb-50 text-center">
@@ -63,19 +58,7 @@
                 <h2>Top Searched</h2> 
             </div>
 
-
-         
-
-
-
 				<div class="row">
-
-
-
-
-
-           
-
         <?php
             try {   
                     //selecting data by id 
