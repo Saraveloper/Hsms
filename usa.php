@@ -32,7 +32,7 @@ text-align: center;
         <div class="row">
         <div class="col-lg-12 col-md-12">
 
-                <h3>Why Sweden </h3>
+                <h3>Why USA </h3>
                 <p> there are so many reasons to study in Sweden. Let’s  jump right into the list… </p>
                 <h3>It’s easy to apply </h3>
                 <p> Students from around the world used to be able to study in Sweden tuition-free, until recently. However, in 2010, the government passed a new law, that has altered the payment structure for international students from outside the EU/EAA. The new structure includes both the tuition fees and the application fees.</p>

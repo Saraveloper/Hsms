@@ -120,13 +120,17 @@
                     <div class="main-menu">
                         <div class="row relative">
                             <div class="col-sm-12">
-                                <!-- <div id="logo-sticky" class="text-center">
-										<a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                            <!-- <div id="logo-sticky" >
+										<a href="index.html"><img src="images/logo.png" hwight="50px" width="50px" alt="logo"></a>
 									</div> -->
                                 <a class="rs-menu-toggle"><i class="fa fa-bars"></i>Menu</a>
                                 <nav class="rs-menu">
+
+                             
                                     <ul class="nav-menu">
                                         <!-- Home -->
+                                       <li> <a href="index.html"><img src="images/logo.png" hwight="50px" width="50px" alt="logo"></a>
+                                        </li>
                                         <li class="current-menu-item current_page_item menu-item-has-children">
                                              <a href="index.php" class="home">Home</a>
                                          
@@ -159,14 +163,13 @@
 
                                             <!--Discover Menu Start-->
                                             <li class="menu-item-has-children"> <a href="#">PREPARE</a>
-                                                <ul class="sub-menu">
-                                                <li> <a href="admin/index.php">Free Test</a></li>
+                                                <ul class="sub-menu">                                                
                                                 <li><a href="ielts.php">IELTS </a></li>
                                                 <li><a href="gre.php">GRE </a></li>
-
-                                                <li><a href="sta.php">STA </a></li>
+                                                <li><a href="sta.php">SAT </a></li>
                                                 <li><a href="toefl.php">TOEFL </a></li>
                                                 <li><a href="gmat.php">GMAT </a></li>
+                                                <li> <a href="admin/index.php">Free Test</a></li>
                                                                         
                                             </ul>
                                             </li>
@@ -184,7 +187,7 @@
                                             </ul>
                                             </li>
                                             <!--Discover Menu End-->
-                                   <li class="menu-item-has-children"> <a href="admin/admin_login.php">Admin Login</a> </li>
+                                   <!-- <li class="menu-item-has-children"> <a href="admin/admin_login.php">Admin Login</a> </li> -->
                                       
                                          <!--Courses Menu Start-->
                                          <li class="menu-item-has-children"> <a href="about.php">About</a> </li>                                                                                                                        
