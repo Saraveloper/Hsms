@@ -116,7 +116,7 @@
 
   }?>
   <span id="countdown" class="timer"></span>
-  <script>
+  <!-- <script>
   var seconds = 40;
       function secondPassed() {
       var minutes = Math.round((seconds - 30)/60);
@@ -133,7 +133,7 @@
       }
       }
   var countdownTimer = setInterval('secondPassed()', 1000);
-  </script>
+  </script> -->
 
   <!--home closed -->
 
