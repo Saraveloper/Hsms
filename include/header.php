@@ -102,82 +102,6 @@
     <!--end  form req..... -->
 
 
-    <script src="js/jquery-1.11.2.js"></script>
-    <script>hsjQuery = window['jQuery'];</script>
-    <meta property="og:description" content="Start exploring the best schools and universities for international students. We carefully review each university and programme to ensure we are providing you with the best possible options and outcomes.">
-    <meta property="og:title" content="A single application for international students to apply to the world’s best schools and universities">
-    <meta name="twitter:description" content="Start exploring the best schools and universities for international students. We carefully review each university and programme to ensure we are providing you with the best possible options and outcomes.">
-    <meta name="twitter:title" content="A single application for international students to apply to the world’s best schools and universities">
-
-    <style>
-a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
-</style>
-<link rel="stylesheet" href="js/module_32002310298_Header_Menu.min.css">
-<link rel="stylesheet" href="js/module_31411208523_MIM_Banner_Module.min.css">
-<link rel="stylesheet" href="js/module_31411264910_FAQ_Module.min.css">
-<link rel="stylesheet" href="js.min.css">
-
-<!-- Editor Styles -->
-<style id="hs_editor_style" type="text/css">
-#hs_cos_wrapper_widget_1639647566705  { display: block !important; padding-left: 0px !important }
-</style>
-<link rel="preconnect" href="https://fonts.googleapis.com/">
-<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Red+Hat+Display:regular,700|Red+Hat+Text:regular,500&amp;display=swap">
-    
-
-
-
-<!--  Added by GoogleAnalytics integration -->
-<script>
-var _hsp = window._hsp = window._hsp || [];
-_hsp.push(['addPrivacyConsentListener', function(consent) { if (consent.allowed || (consent.categories && consent.categories.analytics)) {
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','../www.google-analytics.com/analytics.js','ga');
-  ga('create','UA-37767707-2','auto');
-  ga('send','pageview');
-}}]);
-</script>
-
-<!-- /Added by GoogleAnalytics integration -->
-
-<!--  Added by GoogleTagManager integration -->
-<script>
-var _hsp = window._hsp = window._hsp || []; _hsp.push(['addPrivacyConsentListener', function(consent) { if (consent.allowed || (consent.categories && consent.categories.analytics)) {
-(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-W4T4GS');
-}}]);
-</script>
-
-
-<link rel="stylesheet" href="css/layout.min.css">
-<link rel="stylesheet" href="js/mim-lp-style.min.css">
-<link href="js/font-awesome.min.css" rel="stylesheet"> 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </head>
 
@@ -223,9 +147,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                 <!--Discover Menu Start-->
                                                 <li class="menu-item-has-children"> <a href="#">Discover</a>
                                                 <ul class="sub-menu">                                          
-                                                <li><a href="about2.html">Destination Guide</a></li>
+                                                <li><a href="destination_guide.php">Destination Guide</a></li>
                                                 <li><a href="student_guide.php">Subject Guide</a></li>
                                                 <li><a href="scholarship_advice.php">Scholarship Advice</a></li>
+                                                <li><a href="submit_app.php">submit</a></li>
                                                                                        
                                             </ul>
                                             </li>
@@ -236,7 +161,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                             <li class="menu-item-has-children"> <a href="#">PREPARE</a>
                                                 <ul class="sub-menu">
                                                 <li> <a href="admin/index.php">Free Test</a></li>
-                                                <li><a href="about2.html">Student Guide</a></li>
+                                                <!-- <li><a href="about2.html">Student Guide</a></li> -->
                                                                         
                                             </ul>
                                             </li>
@@ -245,23 +170,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                  <!--Discover Menu Start-->
                                                  <li class="menu-item-has-children"> <a href="#">ADMISSION</a>
                                                 <ul class="sub-menu">
-                                                <li> <a href="about.html">SOP</a></li>
-                                                <li><a href="about2.html">LOR</a></li>
-                                                <li><a href="admission_support.php">Sending Application</a></li>
-                                    <li><a href="blog-details.html">Acceptance Letter</a></li>
+                                                <li> <a href="sop.php">SOP</a></li>
+                                                <li><a href="lor.php">LOR</a></li>
+                                                <li><a href="apply.php">Sending Application</a></li>
+                                                  <li><a href="acceptance_letter.php">Acceptance Letter</a></li>
                                         
                                                                         
                                             </ul>
                                             </li>
                                             <!--Discover Menu End-->
-
-                                            
-
                                    <li class="menu-item-has-children"> <a href="admin/admin_login.php">Admin Login</a> </li>
                                       
                                          <!--Courses Menu Start-->
                                          <li class="menu-item-has-children"> <a href="about.php">About</a> </li>                                                                                                                        
-                                         <li class="menu-item-has-children"> <a href="apply.php">Apply</a> </li>                                                                                                                        
+                                                                                                                                                    
                                                
                                             </ul>
                                         </li>

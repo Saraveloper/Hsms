@@ -2,7 +2,14 @@
 <?php include("./include/header.php"); ?>
 <!-- Footer End -->
 
+<style>
 
+h3{
+    color:red;
+    font-weight:bold;
+}
+    
+</style>
 
 
 
